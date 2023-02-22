@@ -10,7 +10,7 @@ import imagenine from "../images/9.png"
 import star from "../images/star.png"
 
 
-export default [{
+export const data = [{
         id: 1,
         card_img: imageone,
         header: "Bahamas",

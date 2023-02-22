@@ -1,6 +1,6 @@
 import React from 'react'
 import {Box} from "@mui/material"
-import data from "./utils/data.js"
+import {data} from "./utils/data.js"
 import Card from './components/Card'
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero.jsx"
@@ -27,7 +27,9 @@ const App = () => {
     <Box>
       <Navbar nav_logo={nav_logo}/>
       <Hero hero_img={hero_img}/>
-      <div className='cards'>{cards}</div>
+      <div className='cards'>
+        {cards}
+      </div>
       <Footer/>
     </Box>
   )
