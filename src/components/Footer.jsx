@@ -2,6 +2,7 @@ import { Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
 import "./navbar.css"
+import {footerlinksleft, footerlinksright} from "../utils/footerlinks"
 const Footer = () => {
   return (
     <Box className="footer">
@@ -10,19 +11,18 @@ const Footer = () => {
             © 2023 Airbnb, Inc
         </Typography>    
         <ul className='footer--list'>
-        <li className="footer--link"><a href="#">Privacy</a></li>
-        <li className="footer--link"><a href="#">Terms</a></li>
-        <li className="footer--link"><a href="#">Sitemap</a></li>
-        <li className="footer--link"><a href="#">Company Details</a></li>
-        <li className="footer--link"><a href="#">Destinations</a></li>
+          {footerlinksleft.map(item=>(
+
+        <li className="footer--link"><a href={item.url}>{item.path}</a></li>
+        ))}
         </ul>       
       </Box>
       <Box className="footer--right">
         <ul className='footer--list'>
-            <li className="footer--link"><a href="#">English(IN)</a></li>
-            <li className="footer--link"><a href="#">INR</a></li>
-            <li className="footer--link"><a href="#">Support & Resources</a></li>
-        </ul>
+        {footerlinksright.map(item=>(
+
+<li className="footer--link"><a href={item.url}>{item.path}</a></li>
+))} </ul>
       </Box>
     </Box>
   )

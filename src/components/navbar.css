@@ -82,15 +82,15 @@ nav {
 }
 
 .card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     cursor: pointer;
     background-color: rgba(255, 129, 150, 0.223);
     border-radius: 20px;
     width: 20rem;
     margin: 2rem;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: start;
     flex-direction: column;
     float: left;
     flex-wrap: wrap;
