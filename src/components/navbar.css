@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #bfd2fb;
+    overflow-x: hidden;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #E3DFFD;
+    width: 100vw;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 20px 36px;
+    z-index: 100;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+    align-self: center;
+    width: 20rem;
+    height: 40px;
+}
+
+.nav--links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 20px 36px; */
+}
+
+.list--item a {
+    border-bottom: 2px solid rgb(250, 105, 129);
+}
+
+.list--item a:hover {
+    border: 2px solid rgb(250, 105, 129);
+}
+
+.list--item {
+    list-style: none;
+    padding: 10px;
+}
+
+.list--item>a {
+    text-decoration: none;
+    color: #000000;
+    font-size: medium;
+    font-family: roboto;
+    /* background: rgba(0, 0, 0, 0.1); */
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.section {
+    /* padding: 20px; */
+}
+
+.hero--img {
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+}
+
+.hero--header,
+.hero--text {
+    width: fit-content;
+    display: flex;
+    position: relative;
+    top: -200px;
+    left: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cards {
+    padding: 10px 40px;
+}
+
+.card {
+    cursor: pointer;
+    background-color: rgba(255, 129, 150, 0.223);
+    border-radius: 20px;
+    width: 20rem;
+    margin: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    float: left;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.card--img {
+    display: flex;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    align-self: center;
+    margin: 5px;
+    width: 18rem;
+    height: 12rem;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.card--details {
+    width: 100%;
+    font-size: large;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+
+.card--place {
+    font-weight: x-large;
+}
+
+.card--star {
+    object-fit: cover;
+    mix-blend-mode: multiply;
+    width: 35px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+.gray {
+    color: rgba(0, 0, 0, 0.554);
+}
+
+.card--name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    font-size: large;
+    padding-left: 10px;
+}
+
+.card--rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card--price {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.card--premium {
+    background-color: rgba(0, 0, 0, 0.704);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    top: 1.8rem;
+    left: 12.5rem;
+}
+
+.footer {
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    font-size: large;
+    font-family: Roboto;
+    background-color: #E3DFFD;
+    top: 90vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer--left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--list {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer--link {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.footer--link>a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer--list>a {
+    text-decoration: none;
+    color: #000000;
+    font-size: x-large;
+    font-family: roboto;
+    padding: 5px 8px;
+    border-radius: 20px;
+}
+
+.popular {
+    margin: 5px 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    border-bottom: 2px solid rgb(255, 124, 146);
+    width: fit-content;
+}
