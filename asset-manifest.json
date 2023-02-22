@@ -1,24 +1,24 @@
 {
-  "files": {
-    "main.css": "/AdarshMasekar/React_Airbnb_clone.github.io/static/css/main.79e333fd.css",
-    "main.js": "/AdarshMasekar/React_Airbnb_clone.github.io/static/js/main.5fe900a3.js",
-    "static/media/9.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/9.1727f45d70c33ab29c49.png",
-    "static/media/hero_img.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/hero_img.4312fcc2ac6bb6080e6a.png",
-    "static/media/2.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/2.2ddfc4e03dedbaa4f2da.png",
-    "static/media/6.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/6.e5a4b9244ee8fef5b02d.png",
-    "static/media/7.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/7.0dff4fe8af9ae943b369.png",
-    "static/media/1.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/1.7eb1a0110e350686914f.png",
-    "static/media/3.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/3.37c175c4391a2ca399c7.png",
-    "static/media/5.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/5.59c058fb7033da76c3af.png",
-    "static/media/4.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/4.1f514cfbc73b64a20360.png",
-    "static/media/8.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/8.bf5cd4ae08fd6b331470.png",
-    "static/media/airbnb.svg": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/airbnb.96e62745de61aae4432961de96cd3905.svg",
-    "index.html": "/AdarshMasekar/React_Airbnb_clone.github.io/index.html",
-    "main.79e333fd.css.map": "/AdarshMasekar/React_Airbnb_clone.github.io/static/css/main.79e333fd.css.map",
-    "main.5fe900a3.js.map": "/AdarshMasekar/React_Airbnb_clone.github.io/static/js/main.5fe900a3.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.79e333fd.css",
-    "static/js/main.5fe900a3.js"
-  ]
+  "main.css": "/AdarshMasekar/React_Airbnb_clone.github.io/static/css/main.5fd9cb41.chunk.css",
+  "main.js": "/AdarshMasekar/React_Airbnb_clone.github.io/static/js/main.f51313e2.chunk.js",
+  "main.js.map": "/AdarshMasekar/React_Airbnb_clone.github.io/static/js/main.f51313e2.chunk.js.map",
+  "static/js/1.28aa1ce6.chunk.js": "/AdarshMasekar/React_Airbnb_clone.github.io/static/js/1.28aa1ce6.chunk.js",
+  "static/js/1.28aa1ce6.chunk.js.map": "/AdarshMasekar/React_Airbnb_clone.github.io/static/js/1.28aa1ce6.chunk.js.map",
+  "runtime~main.js": "/AdarshMasekar/React_Airbnb_clone.github.io/static/js/runtime~main.9563ee98.js",
+  "runtime~main.js.map": "/AdarshMasekar/React_Airbnb_clone.github.io/static/js/runtime~main.9563ee98.js.map",
+  "static/media/1.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/1.29220fa7.png",
+  "static/media/2.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/2.2be1be6b.png",
+  "static/media/3.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/3.ad39d110.png",
+  "static/media/4.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/4.c1af69aa.png",
+  "static/media/5.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/5.de327b6b.png",
+  "static/media/7.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/7.fa7c6cb3.png",
+  "static/media/8.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/8.1c62e3f6.png",
+  "static/media/6.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/6.bef9713a.png",
+  "static/media/9.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/9.76edbfcd.png",
+  "static/media/hero_img.png": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/hero_img.d5917ed9.png",
+  "static/media/airbnb.svg": "/AdarshMasekar/React_Airbnb_clone.github.io/static/media/airbnb.cfa9fd4f.svg",
+  "static/css/main.5fd9cb41.chunk.css.map": "/AdarshMasekar/React_Airbnb_clone.github.io/static/css/main.5fd9cb41.chunk.css.map",
+  "index.html": "/AdarshMasekar/React_Airbnb_clone.github.io/index.html",
+  "precache-manifest.468c6c50fc472916d98c11ae36571169.js": "/AdarshMasekar/React_Airbnb_clone.github.io/precache-manifest.468c6c50fc472916d98c11ae36571169.js",
+  "service-worker.js": "/AdarshMasekar/React_Airbnb_clone.github.io/service-worker.js"
 }
